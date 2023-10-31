@@ -1,0 +1,49 @@
+.mainTitle {
+  font-size: 80px;
+}
+
+.container {
+}
+
+.selectTitle {
+  margin: 20px, 0px;
+}
+
+.items {
+  display: flex;
+  gap: 60px;
+}
+
+.item {
+  position: relative;
+  border: 3px solid #17203e;
+  border-radius: 3px;
+  width: 270px;
+  height: 360px;
+  background-size: cover !important;
+}
+
+.item:nth-child(1) {
+  background: url("/tree.jpg");
+}
+
+.item:nth-child(2) {
+  background: url("/flower.jpg");
+}
+
+.item:nth-child(3) {
+  background: url("/sea.jpg");
+}
+
+.title {
+  color: black;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.item:hover .title {
+  color: #f0a05b;
+}

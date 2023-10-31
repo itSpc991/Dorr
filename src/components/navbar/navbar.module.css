@@ -1,0 +1,41 @@
+.container {
+  display: flex; /* 弹性布局 */
+  height: 111px; /* 高度 */
+  justify-content: space-between; /* 两端对齐 */
+  align-items: center; /* 垂直居中 */
+}
+
+.logo {
+  font-weight: bold; /* 字体加粗 */
+  font-size: 25px; /* 字体大小 */
+}
+
+.links {
+  font-size: 16px; /* 字体大小 */
+  display: flex; /* 弹性布局 */
+  align-items: center; /* 垂直居中 */
+  gap: 20px; /* 间隔 */
+}
+
+.link {
+  color: #8b8f9d;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: #17203e;
+}
+
+.logout {
+  padding: 7px; /* 内边距 */
+  boarder: none; /* 去除边框 */
+  background-color: #f6f6f4;
+  color: #8b8f9d; /* 字体颜色 */
+  cursor: pointer; /* 鼠标移上去变成手指 */
+  border-radius: 12px; /* 圆角 */
+  font-weight: bold;
+}
+
+.logout:hover {
+  color: #17203e;
+}

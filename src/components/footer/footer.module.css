@@ -1,0 +1,22 @@
+.container {
+  height: 50px; /* 高度 */
+  font-size: 14px; /* 字体大小 */
+  display: flex; /* 弹性布局 */
+  align-items: center; /* 垂直居中 */
+  justify-content: space-between; /* 两端对齐 */
+}
+
+.social {
+  display: flex; /* 弹性布局 */
+  align-items: center; /* 垂直居中 */
+  gap: 30px; /* 间隔 */
+}
+
+.icon {
+  cursor: pointer; /* 鼠标指针 */
+  border-radius: 5px; /* 圆角 */
+}
+
+.icon :before {
+  text-shadow: 0 0 10px #fff; /* 文字阴影 */
+}

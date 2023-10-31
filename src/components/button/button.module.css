@@ -1,0 +1,8 @@
+.container {
+  padding: 10px; /* 内边距 */
+  cursor: pointer; /* 鼠标移上去变成手型 */
+  border-radius: 5px; /* 圆角 */
+  background-color: #e5eeee;
+  border: none; /* 去除边框 */
+  width: 100px; /* 按钮宽度 */
+}

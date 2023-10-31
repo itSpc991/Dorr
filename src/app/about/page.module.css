@@ -1,0 +1,35 @@
+.container {
+}
+
+.imgContainer {
+  width: 900px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  left: 17%;
+}
+
+.img {
+  object-fit: cover;
+}
+
+.imgText {
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+  background-color: rgba(255, 0, 0, 0.5);
+  padding: 5px;
+}
+
+.textContainer {
+  display: flex;
+  gap: 100px;
+}
+
+.item {
+  flex: 1;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
