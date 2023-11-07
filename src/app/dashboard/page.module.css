@@ -1,19 +1,23 @@
 .container {
   display: flex;
-  gap: 20px;
+  gap: 100px;
+}
+
+.posts {
+  flex: 1;
 }
 
 .post {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 50px, 0px;
+  margin: 50px 0px;
 }
 
 .imgContainer {
   width: 200px;
   height: 100px;
-  position: relative;
+  position: Ū;
 }
 
 .img {
@@ -39,16 +43,16 @@
   border: 2px solid #bbb;
   border-radius: 3px;
   color: #bbb;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .button {
   padding: 20px;
   cursor: pointer;
-  background-color: #eee;
+  background-color: #53c28b;
   border: none;
   border-radius: 5px;
-  color: #555;
+  color: #eee;
   font-weight: bold;
 }
